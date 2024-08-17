@@ -1,0 +1,294 @@
+<!DOCTYPE HTML>
+<html>
+	<head>
+		<title>Ahmed portfolio</title>
+		<meta charset="utf-8" />
+		<meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no" />
+		<link rel="stylesheet" href="assets/css/main.css" />
+		<noscript><link rel="stylesheet" href="assets/css/noscript.css" /></noscript>
+		<style>
+			/* Styling for the chatbot icon */
+			.chatbot-icon {
+				width: 60px;
+				height: 60px;
+				border-radius: 100%;
+				transition: border-color 0.3s ease;
+				cursor: pointer; /* Add a pointer cursor to indicate clickability */
+				position: fixed;
+				bottom: 20px;
+				right: 20px; /* Position at the bottom right corner */
+			}
+	
+			/* Styling for the iframe chat interface */
+			.chat-iframe {
+				display: none; /* Initially hide the iframe */
+				position: fixed;
+				bottom: 80px; /* Adjust the distance from the bottom */
+				border-left: calc(50% - 150px); /* Center the iframe horizontally */
+				border: none;
+				width: 450px;
+				height: 600px;
+			}
+	
+			/* Styling for close button within the chat interface */
+			.close-chat {
+				position: absolute;
+				top: 10px;
+				right: 10px;
+				cursor: pointer;
+			}
+		</style>
+	</head>
+	<body class="is-preload">
+
+		<!-- Wrapper -->
+			<div id="wrapper" class="fade-in">
+
+				<!-- Intro -->
+					<div id="intro">
+						<h1>Ahmed the Developer<br> portfolio</h1>
+						<p>Software Engineer skilled in C,Java,Python,SQL,Web dev languages. <a href="https://www.linkedin.com/in/ahmed-furkhan-b4b7ab230/">@ahmedfurkhan98</a></p>
+						<ul class="actions">
+							<li><a href="#header" class="button icon solid solo fa-arrow-down scrolly">Continue</a></li>
+						</ul>
+					</div>
+
+				<!-- Header -->
+					<header id="header">
+						<a href="index.html" class="logo">About me</a>
+					</header>
+
+				<!-- Nav -->
+					<nav id="nav">
+						<ul class="links">
+							<li class="active"><a href="index.html">About me</a></li>
+							<li><a href="generic.html">education</a></li>
+							<li><a href="elements.html">project</a></li>
+							<li><a href="basic.html">Skills</a></li>
+							<li><a href="certify.html">Certification</a></li>
+						</ul>
+						<ul class="icons">
+							<li><a href="https://twitter.com/ahmedfurkhan98" class="icon brands fa-twitter" target="_blank"><span class="label">Twitter</span></a></li>
+							<li><a href="https://www.facebook.com/ahmedfurkhan.challenger" class="icon brands fa-facebook-f" target="_blank"><span class="label">Facebook</span></a></li>
+							<li><a href="https://www.instagram.com/ahmed_furkhan_/" class="icon brands fa-instagram" target="_blank"><span class="label">Instagram</span></a></li>
+							<li><a href="https://github.com/Ahmedfurkhan" class="icon brands fa-github" target="_blank"><span class="label">GitHub</span></a></li>
+							<li><a href="https://console.dialogflow.com/api-client/demo/embedded/ace15f2d-2c48-4725-967d-8bf7c47dba19""><span class="label">AI</span></a></li>
+						</ul>
+					</nav>
+
+				<!-- Main -->
+					<div id="main">
+						
+
+						<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+									<h2><a href="#">Hi there!<br />
+									Myself Ahmed furkhan</a></h2>
+									<style>
+										.round-image {
+																			border-radius: 100%;
+																			transition: border-color 0.3s ease;
+																	}
+
+										.round-image:hover {
+																			border-color: #c0c7cc;
+												               }
+									</style>
+									<a href="#" class="image"><img src="images/pic.png" alt=""  width="300" height="350" /></a>
+									<ul><li><p>I reside in Bangalore, India, where my passion for software engineering and data science began after completing my +2 education. Throughout my Bachelor's degree in Computer Science and Engineering at a reputed college, this passion deepened, leading me to explore artificial intelligence, machine learning, and large language models (LLMs).</p></li></ul> 
+									<ul><li><p>I have gained practical experience through various internships, including roles as a Full Stack Developer Intern at Datalog Research Lab, a Data Science Intern at Pantech.AI, and an Artificial Intelligence Intern at Varcons Inc. Currently, I am a Machine Learning Intern at Feynn Labs, where I lead a team of four members.</p></li></ul> 			
+									<ul><li><p>Outside of my academic and professional endeavors, I enjoy solving Rubik's Cubes, appreciating music, and watching movies/anime</p></li></ul>
+								</header>
+								
+								<ul class="actions special">
+									<li><a href="https://ahmedfurkhan98.hackerresume.io/8573b141-d482-4a3d-a6ad-ce725cdae36a" class="button large">My Resume</a></li>
+								</ul>				
+							</article>
+							
+
+							<!-- Featured Post -->
+							<article class="post featured">
+								<header class="major">
+								 <h2><a href="#">Featured <br />
+									Projects</a></h2>
+								</article>
+						<!-- Project -->
+							<section class="posts">
+								<article>
+									<header>
+										<h2><a href="https://github.com/Ahmedfurkhan/Data_Exploration_project" target="_blank">AirBNB Clone</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/airbnb.png" alt="" /></a>
+									<p>Web-based platform that allows users to search, book, and manage car rentals from various providers, providing a convenient and efficient solution for booking Hotels/House needs.</p>
+									<ul class="actions special">
+										<li><a href="https://ahmedbnb-clone.vercel.app/" class="button" target="_blank">view project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="https://huggingface.co/spaces/ahmedfurkhan98/ahmedchatbot" target="_blank">Ahmed Chatbot</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/ahmedchatbot.png" alt="" /></a>
+									<p>A web-based platform that allows users to chat using a free LLM from Hugging Face. 
+										Explore interactions with state-of-the-art language models. 
+										Enjoy seamless, AI-powered conversations.</p>
+									<ul class="actions special">
+										<li><a href="https://huggingface.co/spaces/ahmedfurkhan98/ahmedchatbot" target="_blank" class="button">view project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="https://multidi.streamlit.app/" target="_blank">MultiDisease platform<br />
+										Using Python</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/multi.png" alt="" /></a>
+									<p>AI-Driven Disease Prevention and Management Platform (AIDPM) is a state-of-the-art solution that predict, prevent, and manage a broad spectrum of diseases.</p>
+									<ul class="actions special">
+										<li></a><a href="https://multidi.streamlit.app/" target="_blank" class="button">view project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="https://depressio-io.onrender.com/" target="_blank">Depression Detection<br />
+										Using Python</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/depressio.png" alt="" /></a>
+									<p>This project used data from social media networks to explore various methods of early detection of MDDs based on machine learning.</p>
+									<ul class="actions special">
+										<li><a href="#https://github.com/Ahmedfurkhan/Movies_Correlation_Project" target="_blank" class="button">view project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="https://huggingface.co/spaces/ahmedfurkhan98/AhmedPdfReader" target="_blank">Ahmed PdfReader</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/ahmedpdf.png" alt="" /></a>
+									<p>A web-based platform that enables users to interact with PDFs using a free LLM from Hugging Face. 
+										Easily extract, summarize, and analyze document content. 
+										Enhance your PDF experience with advanced AI capabilities.</p>
+									<ul class="actions special">
+										<li><a href="https://huggingface.co/spaces/ahmedfurkhan98/AhmedPdfReader" target="_blank" class="button">view project</a></li>
+									</ul>
+								</article>
+								<article>
+									<header>
+										<h2><a href="https://zoom-clone-ten-eta.vercel.app/" target="_blank">Zoom Clone <br />
+										Using Python</a></h2>
+									</header>
+									<a href="#" class="image fit"><img src="images/" alt="" /></a>
+									<p>In this project we detect the disease of the person by knowing the symptoms faced by person. To check the accuracy of the trained model i have used AI/ML Algorithms. </p>
+									<ul class="actions special">
+										<li><a href="https://zoom-clone-ten-eta.vercel.app/" target="_blank" class="button">view project</a></li>
+									</ul>
+								</article>
+							</section>
+							
+
+						<!-- Footer -->
+							<footer>
+								<div class="pagination">
+									<!--<a href="#" class="previous">Prev</a>-->
+									<a href="#" class="page active">1</a>
+									<a href="generic.html" class="page">2</a>
+									<a href="elements.html" class="page">3</a>
+									<a href="basic.html" class="page">4</a>
+									<a href="certify.html" class="page">5</a>
+									<span class="extra">&hellip;</span>
+									<a href="#" class="page">10</a>
+									<a href="generic.html" class="next">Next</a>
+								</div>
+							</footer>
+
+					</div>
+
+				<!-- Footer -->
+				<footer id="footer">
+					<section>
+						<form action="https://formsubmit.co/ahmedfurkhan98@gmail.com" method="POST">
+							<div class="fields">
+								<div class="field">
+									<label for="name">Name</label>
+									<input type="text" name="name" id="name" required/>
+								</div>
+								<div class="field">
+									<label for="email">Email</label>
+									<input type="text" name="email" id="email" required/>
+								</div>
+								<div class="field">
+									<label for="message">Message</label>
+									<textarea name="message" id="message" rows="3" required></textarea>
+								</div>
+							</div>
+							<ul class="actions">
+								<li><input type="submit" value="Send Message" /></li>
+								<li><input type="hidden" name="_next" value="https://ahmedfurkhan.github.io/portfolio.io/thank-you.html"></li>
+							</ul>
+						</form>
+					</section>
+					<section class="split contact">
+						<section class="alt">
+							<h3>Address</h3>
+							<p>Bismillah Nagar<br />
+							Bangalore 560029 , India</p>
+						</section>
+						<section>
+							<h3>Phone</h3>
+							<p><a href="#">6362112704</a></p>
+						</section>
+						<section>
+							<h3>Email</h3>
+							<p><a href="https://mail.google.com/mail">Ahmedfurkhan98@gmail.com</a></p>
+						</section>
+						<section>
+							<h3>Social</h3>
+							<ul class="icons alt">
+								<li><a href="https://twitter.com/ahmedfurkhan98" class="icon brands fa-twitter"><span class="label">Twitter</span></a></li>
+								<li><a href="https://www.facebook.com/ahmedfurkhan.challenger" class="icon brands fa-facebook-f"><span class="label">Facebook</span></a></li>
+								<li><a href="https://www.instagram.com/weird_ahmed/" class="icon brands fa-instagram"><span class="label">Instagram</span></a></li>
+								<li><a href="https://github.com/Ahmedfurkhan" class="icon brands fa-github"><span class="label">GitHub</span></a></li>
+							</ul>
+						</section>
+						<!-- Dialogflow chat interface embedded in an iframe -->
+  <iframe class="chat-iframe" src="https://console.dialogflow.com/api-client/demo/embedded/ace15f2d-2c48-4725-967d-8bf7c47dba19" id="chatIframe"></iframe>
+
+  <!-- Chatbot icon -->
+  <img src="images/chatbot.jpg" alt="" class="chatbot-icon" id="chatbotIcon" >
+				</footer>
+			</div>
+			
+	<!-- Scripts -->
+		<script src="assets/js/jquery.min.js"></script>
+		<script src="assets/js/jquery.scrollex.min.js"></script>
+		<script src="assets/js/jquery.scrolly.min.js"></script>
+		<script src="assets/js/browser.min.js"></script>
+		<script src="assets/js/breakpoints.min.js"></script>
+		<script src="assets/js/util.js"></script>
+		<script src="assets/js/main.js"></script>
+		<script>
+			// Get the chatbot icon element
+			const chatbotIcon = document.getElementById('chatbotIcon');
+			// Get the chat iframe element
+			const chatIframe = document.getElementById('chatIframe');
+	
+			// Add click event listener to the chatbot icon
+			chatbotIcon.addEventListener('click', function() {
+				if (chatIframe.style.display === 'none') {
+					// Show the chat iframe when closed
+					chatIframe.style.display = 'block';
+				} else {
+					// Hide the chat iframe when opened
+					chatIframe.style.display = 'none';
+				}
+			});
+	
+			// Close the chat interface when the close button is clicked
+			chatIframe.contentDocument.addEventListener('click', function(event) {
+				if (event.target.classList.contains('close-chat')) {
+					chatIframe.style.display = 'none';
+				}
+			});
+		</script>
+
+</body>
+</html>
