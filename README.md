@@ -1,2 +1,2 @@
 # portfolio.io
-This is Ahmed furkhan 
+This is Ahmed furkhan. Aspiring to become AI Engineer.
